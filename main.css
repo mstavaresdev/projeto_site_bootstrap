@@ -1,0 +1,72 @@
+body {
+    font-family: 'Roboto', sans-serif;  
+}
+
+.navbar {
+    background-color: #292929;
+}
+
+#cabecalho .nav .nav-link.active  {
+    background-color: #fff;
+    color: #292929;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-projetos .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #b1b1b1;
+}
+
+.section-title {
+    font-family: 'Urbanist', sans-serif;
+}
+
+
+#sobre-a-loja,
+#projetos {
+    background-color:#b1b1b1;
+}
+
+.text-colored {
+    color: #ffffff;
+}
+
+.text-colored-2 {
+    color: #aaaaaa;
+}
+
+.nav-projetos .nav-link.active,
+#fale-conosco button {
+    background-color: #292929;
+    color: #fff;
+}
+
+.nav-projetos .nav-link:hover {
+    color:#ffffff;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.max-height-carousel {
+    max-height: 760px;
+    object-fit: cover; 
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 260px;
+    }
+}
+

@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>msTavares Ambientes Planejados</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">
+                <i class="bi bi-house-door me-1"></i>
+                msTavares Planejados
+            </h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>            
+                <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                    <ul class="nav nav-pills d-block d-md-flex">
+                        <li class="nav-item fw-bold">
+                            <a href="#sobre-a-loja" class="nav-link">
+                                <i class="bi bi-shop me-1"></i>
+                                Sobre a loja
+                            </a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a href="#ambientes" class="nav-link">
+                                <i class="bi bi-bricks me-1"></i>
+                                Ambientes
+                            </a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a href="#projetos" class="nav-link">
+                                <i class="bi bi-cloud me-1"></i>
+                                Nossos projetos
+                            </a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a href="#fale-conosco" class="nav-link">
+                                <i class="bi bi-chat-left-text me-1"></i>
+                                Fale conosco
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-loja">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="d-block w-100 max-height-carousel" src="./images/cozinha.jpg" alt="Foto cozinha planejada">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100 max-height-carousel" src="./images/sala.jpg" alt="Foto sala planejada">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100 max-height-carousel" src="./images/balcao.jpg" alt="Foto balcão planejado">
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/loja.jpg" class="d-block w-100 rounded" alt="Foro do espaço interno do restaurante">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">a loja</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus fugiat facilis ab? Eveniet provident facere sint aliquam, odio corporis esse inventore quos dolore pariatur maxime ex. Quos et alias dolore.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab vitae sint sed dolorum doloremque enim soluta vero, modi delectus eligendi at velit dolorem corporis non fugit repudiandae veritatis cum magnam?
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab vitae sint sed dolorum doloremque enim soluta vero, modi delectus eligendi at velit dolorem corporis non fugit repudiandae veritatis cum magnam?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="ambientes" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todos <span class="text-colored-2">os ambientes</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./images/projetos/cozinha_933x700.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored-2 fs-4">
+                            <i class="bi bi-arrow-right-circle"></i>
+                            Cozinhas
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure repudiandae ipsa consequatur minus a dolore quis perspiciatis nam libero harum consectetur similique, dicta totam officiis eligendi placeat dolorem neque!</p>
+                    </div>
+                    <div class="col-md-4">
+                            <img src="./images/projetos/adega_933x700.jpg" alt="" class="d-block w-100 rounded mb-2">
+                            <h3 class="section-title text-colored-2 fs-4">
+                                <i class="bi bi-arrow-right-circle"></i>
+                                Adegas
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure repudiandae ipsa consequatur minus a dolore quis perspiciatis nam libero harum consectetur similique, dicta totam officiis eligendi placeat dolorem neque!</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/projetos/quarto_933x700.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored-2 fs-4">
+                            <i class="bi bi-arrow-right-circle"></i>
+                            Dormitórios
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure repudiandae ipsa consequatur minus a dolore quis perspiciatis nam libero harum consectetur similique, dicta totam officiis eligendi placeat dolorem neque!</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/projetos/closet_933x700.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored-2 fs-4">
+                            <i class="bi bi-arrow-right-circle"></i>
+                            Closets
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure repudiandae ipsa consequatur minus a dolore quis perspiciatis nam libero harum consectetur similique, dicta totam officiis eligendi placeat dolorem neque!</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/projetos/living_933x700.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored-2 fs-4">
+                            <i class="bi bi-arrow-right-circle"></i>
+                            Livings
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure repudiandae ipsa consequatur minus a dolore quis perspiciatis nam libero harum consectetur similique, dicta totam officiis eligendi placeat dolorem neque!</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/projetos/sala_banho_933x700.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored-2 fs-4">
+                            <i class="bi bi-arrow-right-circle"></i>
+                            Salas de banho
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure repudiandae ipsa consequatur minus a dolore quis perspiciatis nam libero harum consectetur similique, dicta totam officiis eligendi placeat dolorem neque!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projetos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nossos <span class="text-colored">projetos</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-projetos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#cozinhas" class="fw-bold text-start nav-link text-colored active">Cozinhas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#adegas" class="fw-bold text-start nav-link text-colored ">Adegas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#dormitorios" class="fw-bold text-start nav-link text-colored ">Dormitórios</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#closets" class="fw-bold text-start nav-link text-colored ">Closets</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#livings" class="fw-bold text-start nav-link text-colored ">Livings</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#salas-banho" class="fw-bold text-start nav-link text-colored ">Salas de banho</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="cozinhas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/cozinha.jpg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/cozinha_933x700.jpg" alt="Cozinha planejada" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Cozinha planejada #1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/cozinha.jpg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/cozinha_933x700.jpg" alt="Cozinha planejada" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Cozinha planejada #2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/cozinha.jpg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/cozinha_933x700.jpg" alt="Cozinha planejada" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Cozinha planejada #3</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/cozinha.jpg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/cozinha_933x700.jpg" alt="Cozinha planejada" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Cozinha planejada #4</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/cozinha.jpg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/cozinha_933x700.jpg" alt="Cozinha planejada" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Cozinha planejada #5</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/cozinha.jpg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/cozinha_933x700.jpg" alt="Cozinha planejada" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Cozinha planejada #6</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="adegas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/adega.jpg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/adega_933x700.jpg" alt="Adega planejada" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Adega planejada #1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/adega.jpg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/adega_933x700.jpg" alt="Adega planejada" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Adega planejada #2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/adega.jpg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/adega_933x700.jpg" alt="Adega planejada" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Adega planejada #3</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/adega.jpg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/adega_933x700.jpg" alt="Adega planejada" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Adega planejada #4</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/adega.jpg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/adega_933x700.jpg" alt="Adega planejada" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Adega planejada #5</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/adega.jpg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/adega_933x700.jpg" alt="Adega planejada" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Adega planejada #6</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="dormitorios">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/quarto.jpeg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/quarto_933x700.jpg" alt="Dormitório planejado" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Dormitório planejado #1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/quarto.jpeg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/quarto_933x700.jpg" alt="Dormitório planejado" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Dormitório planejado #2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/quarto.jpeg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/quarto_933x700.jpg" alt="Dormitório planejado" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Dormitório planejado #3</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/quarto.jpeg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/quarto_933x700.jpg" alt="Dormitório planejado" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Dormitório planejado #4</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/quarto.jpeg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/quarto_933x700.jpg" alt="Dormitório planejado" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Dormitório planejado #5</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/quarto.jpeg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/quarto_933x700.jpg" alt="Dormitório planejado" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Dormitório planejado #6</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="closets">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/closet.jpg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/closet_933x700.jpg" alt="Closet planejado" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Closet planejado #1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/closet.jpg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/closet_933x700.jpg" alt="Closet planejado" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Closet planejado #2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/closet.jpg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/closet_933x700.jpg" alt="Closet planejado" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Closet planejado #3</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/closet.jpg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/closet_933x700.jpg" alt="Closet planejado" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Closet planejado #4</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/closet.jpg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/closet_933x700.jpg" alt="Closet planejado" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Closet planejado #5</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/closet.jpg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/closet_933x700.jpg" alt="Closet planejado" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Closet planejado #6</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="livings">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/living.jpg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/living_933x700.jpg" alt="Living planejada" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Living planejado #1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/living.jpg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/living_933x700.jpg" alt="Living planejada" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Living planejado #2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/living.jpg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/living_933x700.jpg" alt="Living planejada" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Living planejado #3</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/living.jpg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/living_933x700.jpg" alt="Living planejada" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Living planejado #4</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/living.jpg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/living_933x700.jpg" alt="Living planejada" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Living planejado #5</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/living.jpg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/living_933x700.jpg" alt="Living planejada" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Living planejado #6</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="salas-banho">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/sala_banho.jpg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/sala_banho_933x700.jpg" alt="Salas de banho planejada" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Sala de banho planejada #1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/sala_banho.jpg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/sala_banho_933x700.jpg" alt="Salas de banho planejada" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Sala de banho planejada #2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/sala_banho.jpg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/sala_banho_933x700.jpg" alt="Salas de banho planejada" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Sala de banho planejada #3</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/sala_banho.jpg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/sala_banho_933x700.jpg" alt="Salas de banho planejada" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Sala de banho planejada #4</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/sala_banho.jpg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/sala_banho_933x700.jpg" alt="Salas de banho planejada" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Sala de banho planejada #5</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="./images/ambientes/sala_banho.jpg" target="_blank">
+                                        <img class="d-block w-100" src="./images/projetos/sala_banho_933x700.jpg" alt="Salas de banho planejada" />
+                                        </a>
+                                        <h5 class="text-colored fw-bold">Sala de banho planejada #6</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored-2">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5 ">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored-2">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" name="nome">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored-2">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" name="email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored-2">Seu telefone</label>
+                                <input type="tel" id="telefone" class="form-control" name="telefone">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored-2">Sua mensagem</label>
+                                <textarea style="resize: none;" class="form-control" id="mensagem" name="mensagem"></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored-2">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5 ">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored-2"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1 ">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored-2"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored-2"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored-2" >
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p class="text-colored-2">
+                                Rua Teste exemplo nº 145, Bairro Bootstrap - São Paulo - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
